@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="aicp_version_title">Опыт использования AICP</string>
-    <string name="aicp_version_summary">Aicp Pie Версия - 14.0</string>
-    <string name="aicpextras_title">AICP Extras</string>
     <string name="aicpextras_summary">Настройка прошивки</string>
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root доступ</string>

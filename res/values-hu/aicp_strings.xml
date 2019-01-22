@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="aicp_version_title">AICP Élmény</string>
-    <string name="aicp_version_summary">AICP PIE Edition - 14.0</string>
-    <string name="aicpextras_title">AICP Extrák</string>
     <string name="aicpextras_summary">ROM testreszabás</string>
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root-jogosultság</string>

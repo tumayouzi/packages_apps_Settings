@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="aicp_version_title">AICP Experience</string>
-    <string name="aicpextras_title">AICP додаткові послуги</string>
     <!-- Setting checkbox title for root access -->
     <!-- Android debugging over WiFi -->
     <!-- Warning for Adb over Network -->

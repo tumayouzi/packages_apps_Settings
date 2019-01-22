@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="aicp_version_title">AICP 體驗</string>
-    <string name="aicp_version_summary">Aicp Pie 版本 - 14.0</string>
-    <string name="aicpextras_title">Aicp 額外功能</string>
     <string name="aicpextras_summary">ROM 自訂</string>
     <!-- Setting checkbox title for root access -->
     <!-- Android debugging over WiFi -->
