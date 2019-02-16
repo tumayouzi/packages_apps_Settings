@@ -100,5 +100,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selinux_status"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selinux_status_enforcing"/>
     </LinearLayout>
 </ScrollView>
