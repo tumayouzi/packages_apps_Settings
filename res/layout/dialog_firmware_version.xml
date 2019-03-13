@@ -37,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+<!--
         <TextView
             style="@style/device_info_dialog_label"
             android:layout_width="match_parent"
@@ -46,6 +47,7 @@
             style="@style/device_info_dialog_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+-->
 
         <!--<TextView
             style="@style/device_info_dialog_label"
@@ -71,6 +73,7 @@
             android:background="?android:attr/selectableItemBackground"
             android:textColor="?android:attr/colorAccent"/>
 
+<!--
         <TextView
             style="@style/device_info_dialog_label"
             android:layout_width="match_parent"
@@ -80,6 +83,7 @@
             style="@style/device_info_dialog_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+-->
 
         <TextView
             style="@style/device_info_dialog_label"
