@@ -177,10 +177,13 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     public static class crDroidSettingsLayoutActivity extends SettingsActivity {}
+    public static class DozeActivity extends SettingsActivity {}
+    public static class SmartPixelsActivity extends SettingsActivity {}
     public static class SmartbarSettingsActivity extends SettingsActivity {}
     public static class FlingSettingsActivity extends SettingsActivity {}
     public static class PulseSettingsActivity extends SettingsActivity {}
 
     public static class PieSettingsActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity {}
 }

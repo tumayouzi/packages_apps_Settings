@@ -24,6 +24,7 @@ import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
+import com.android.settings.Settings.GamingModeActivity;
 import com.android.settings.Settings.PieSettingsActivity;
 import com.android.settings.Settings.PulseSettingsActivity;
 import com.android.settings.Settings.SmartbarSettingsActivity;
@@ -144,6 +145,13 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.crdroid.settings.crDroidSettingsLayout;
+import com.crdroid.settings.fragments.misc.GamingMode;
+import com.crdroid.settings.fragments.navigation.PieSettings;
+import com.crdroid.settings.fragments.navigation.smartnav.SmartbarSettings;
+import com.crdroid.settings.fragments.navigation.smartnav.FlingSettings;
+import com.crdroid.settings.fragments.navigation.smartnav.PulseSettings;
+import com.crdroid.settings.fragments.ui.DozeFragment;
+import com.crdroid.settings.fragments.ui.SmartPixels;
 
 public class SettingsGateway {
 
@@ -271,10 +279,13 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             crDroidSettingsLayout.class.getName(),
-            SmartbarSettingsActivity.class.getName(),
-            FlingSettingsActivity.class.getName(),
-            PieSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName(),
+            DozeFragment.class.getName(),
+            SmartPixels.class.getName(),
+            SmartbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            GamingMode.class.getName(),
+            PieSettings.class.getName(),
+            PulseSettings.class.getName(),
             RunningServices.class.getName()
     };
 
@@ -315,8 +326,11 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.crDroidSettingsLayoutActivity.class.getName(),
+            Settings.DozeActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
             Settings.PieSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName()
