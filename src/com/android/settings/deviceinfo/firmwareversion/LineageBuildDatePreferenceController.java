@@ -28,6 +28,9 @@ public class LineageBuildDatePreferenceController extends BasePreferenceControll
 
     private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
 
+    private static final String KEY_BUILD_HOST_PROP = "ro.build.host";
+    private static final String KEY_BUILD_USER_PROP = "ro.build.user";
+
     public LineageBuildDatePreferenceController(Context context, String key) {
         super(context, key);
     }
@@ -39,7 +42,11 @@ public class LineageBuildDatePreferenceController extends BasePreferenceControll
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_BUILD_DATE_PROP,
-                mContext.getString(R.string.unknown));
+        return SystemProperties.get(KEY_BUILD_DATE_PROP, mContext.getString(R.string.unknown))
+               + " (" 
+               + SystemProperties.get(KEY_BUILD_USER_PROP, mContext.getString(R.string.unknown))
+               + "@"
+               + SystemProperties.get(KEY_BUILD_HOST_PROP, mContext.getString(R.string.unknown))
+               + ")";
     }
 }
